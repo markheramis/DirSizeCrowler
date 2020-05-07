@@ -47,5 +47,5 @@ for path in args:
 		val = path + "/" + val
 		size = scan_path(val)
 		if size :
-			total_size += scan_path(val)
+			total_size += size
 	print "Total Size:", convert_size(total_size)
